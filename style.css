@@ -1,3 +1,70 @@
 header {
-    background: rgb(139, 220, 231);
+    background: #19FF8C;
+    border-bottom: 1px solid #19FF8C;
+    border-radius: 0 0 20px 20px;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 0;
+  
+}
+
+.logo {
+    width: 15%;
+}
+
+nav {
+    position: absolute;
+    top: 140px;
+    right: 0;
+}
+
+nav h2 {
+    display: inline;
+    margin: 0 0 0 50px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #00934A;
+    font-family: arial;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #22544D;
+}
+
+main {
+    margin: 70px 0;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    font-family: arial;
+}
+
+.box2 {
+    position: relative;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.imagem {
+    width: 30%;
+}
+
+.text {
+    text-align: justify;
+    position: absolute;
+    top: 50px;
+    left: 260px;
+    font-size: 20px;
+    font-family: arial;
 }
